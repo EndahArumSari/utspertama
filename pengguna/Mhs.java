@@ -13,7 +13,7 @@ public void setNama(String nama){
 }
 
 public String getNama(){
-    return this.nama ;
+    return this.nama = nama;
 }
 
 public void setNim(String nim) {
@@ -21,15 +21,15 @@ public void setNim(String nim) {
 }
 
 public String getNim(){
-    return this.nim ;
+    return this.nim = nim;
 }
 
 public void setSmt(int smt) {
-    this.username = username ;
+    this.smt = smt;
 }
 
 public int getSmt(){
-    return this.smt ;
+    return this.smt = smt;
 }
 
 }

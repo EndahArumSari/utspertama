@@ -1,4 +1,5 @@
 import pengguna.*;
+
 class Main {
     public static void main(String[] args) {
         Mhs mhs = new Mhs("ini_username", "ini_password");
@@ -10,8 +11,8 @@ class Main {
         System.out.println("Nama Mhs: " + mhs.getNama());
         System.out.println("Nim Mhs: " + mhs.getNim());
         System.out.println("Smst Mhs: "+ mhs.getSmt());
-        System.out.println("Username: " + mhs.getUsername());
-        System.out.println("Password: " + mhs.getPassword());
+        System.out.println("USERNAME: " + mhs.getUsername());
+        System.out.println("PASSWORD: " + mhs.getPassword());
 
 
 
